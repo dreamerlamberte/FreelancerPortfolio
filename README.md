@@ -75,11 +75,11 @@ Open [`index.html`](./index.html) and fill your information, there are 6 section
 
 ```html
 <!-- Title: add your Portfolio websites's title here -->
-<title>[Your name here] | Developer</title>
+<title>Dreamer Lamberte | Wordpress/Digital Marketing Freelancer Profile</title>
 <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
 <meta name="keywords" content="[username], [name], skill" />
 <!-- Improve your SEO by adding a small descrption of you -->
-<meta name="description" content="[Your name here] | Developer" />
+<meta name="description" content="Dreamer Lamberte | Wordpress/Digital Marketing Freelancer Profile" />
 ```
 
 - Remove google analytics tag before pushing it to GitHub.
