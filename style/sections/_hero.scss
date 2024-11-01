@@ -29,7 +29,7 @@
   }
 
   .hero-title {
-    font-size: 5.6rem;
+    font-size: 4rem;
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: left;
@@ -75,6 +75,14 @@
   left: 50%;
   bottom: 20px;
   transform: translateX(-50%);
+  
+  @include respond(tab-port) {
+    left: 90%;
+  }
+  
+  @include respond(phone) {
+    left: 90%;
+  }
 }
 .scroll-down {
   height: 50px;

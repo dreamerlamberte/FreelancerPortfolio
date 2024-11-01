@@ -103,19 +103,42 @@ Have fun creating your portfolio on this template!!! -->
   <body>
     <!-- Hero Section -->
     <div id="hero">
+      
       <section class="container">
-        <h1 class="hero-title">
-          Hi, my name is <span class="text-color-main name">Dreamer Lamberte.</span>
-          <br />
-          A self-starter Wordpress and Digital Marketing freelancer.
-        </h1>
-        <p class="hero-cta">
-          <a class="cta-btn cta-btn--hero" href="#contact">Get in touch</a>
-        </p>
+        <div class="project-wrapper">
+          <article class="row">
+            <div class="project-wrapper__text">
+              <div class="about-wrapper__image">
+                <img
+                  width="200" height="200"
+                  class="img-fluid"
+                  src="./assets/Portfolio_Profile_Pic.png"
+                  alt="Profile Image"
+                  object-fit: cover;
+                />
+              </div>
+            </div>
+            <div class="project-wrapper__image">
+              <h1 class="hero-title">
+                Hi, my name is <span class="text-color-main name">Dreamer Lamberte.</span>
+                <br />
+                A self-starter Wordpress and Digital Marketing freelancer.
+              </h1>
+              <p class="hero-cta">
+                <a class="cta-btn cta-btn--hero" href="#contact">Get in touch</a>
+              </p>
+            </div>
+          </article>
+        </div>
+        <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+          <div class="scroll-down"></div
+        ></a>
+  
+        <div>
+          
+        </div>
       </section>
-      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
-        <div class="scroll-down"></div
-      ></a>
+      
     </div>
     <!-- /END Hero Section -->
 
@@ -125,12 +148,17 @@ Have fun creating your portfolio on this template!!! -->
         <h2 class="section-title">About Me</h2>
         <div class="row about-wrapper">
           <div class="about-wrapper__image">
-            <img
+            <!--img
               class="img-fluid"
               src="./assets/Portfolio_Profile_Pic.png"
               alt="Profile Image"
               object-fit: cover;
-            />
+            /-->
+            <iframe 
+            src="https://www.youtube.com/embed/w8BuzfKPAGs?si=1fUmRolI5q_1RJac" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
           <div class="about-wrapper__info">
             <p class="about-wrapper__info-text">
@@ -169,8 +197,6 @@ Have fun creating your portfolio on this template!!! -->
               target="_blank" rel="noopener noreferrer">Business LinkedIn</a>
             </span>
           </div>
-          
-        </div>
       </div>
     </section>
     <!-- /END About Section -->
@@ -181,7 +207,6 @@ Have fun creating your portfolio on this template!!! -->
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
 
-          <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">Galansiyang Inc. Website</h3>
